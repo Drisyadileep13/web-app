@@ -1,11 +1,12 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>HOPE Café</title>
+    <title>HOPE CAFE</title>
 
     <style>
 
@@ -345,6 +346,7 @@
 
 </head>
 
+
 <body>
 
 
@@ -352,7 +354,7 @@
 
     <nav>
 
-        <div class="logo">☕ HOPE Café</div>
+        <div class="logo">☕ HOPE CAFE</div>
 
         <ul>
             <li><a href="#home">Home</a></li>
@@ -368,7 +370,7 @@
 
     <section class="hero" id="home">
 
-        <h1>Welcome to HOPE Café</h1>
+        <h1>Welcome to HOPE CAFE</h1>
 
         <p>A Little Coffee, A Lot of Happiness.</p>
 
@@ -392,22 +394,15 @@
         <div class="menu-container">
 
 
-            <!-- ITEM 1 -->
-
             <div class="menu-card">
 
-                <img
-                    src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600"
-                    alt="Cappuccino"
-                >
+                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600" alt="Cappuccino">
 
                 <div class="menu-info">
 
                     <h3>Cappuccino</h3>
 
-                    <p>
-                        Rich espresso topped with creamy steamed milk.
-                    </p>
+                    <p>Rich espresso topped with creamy steamed milk.</p>
 
                     <span class="price">₹180</span>
 
@@ -416,22 +411,15 @@
             </div>
 
 
-            <!-- ITEM 2 -->
-
             <div class="menu-card">
 
-                <img
-                    src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=600"
-                    alt="Latte"
-                >
+                <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=600" alt="Latte">
 
                 <div class="menu-info">
 
                     <h3>Classic Latte</h3>
 
-                    <p>
-                        Smooth espresso blended with fresh milk.
-                    </p>
+                    <p>Smooth espresso blended with fresh milk.</p>
 
                     <span class="price">₹200</span>
 
@@ -440,22 +428,15 @@
             </div>
 
 
-            <!-- ITEM 3 -->
-
             <div class="menu-card">
 
-                <img
-                    src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600"
-                    alt="Croissant"
-                >
+                <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600" alt="Croissant">
 
                 <div class="menu-info">
 
                     <h3>Butter Croissant</h3>
 
-                    <p>
-                        Freshly baked, crispy and buttery pastry.
-                    </p>
+                    <p>Freshly baked, crispy and buttery pastry.</p>
 
                     <span class="price">₹120</span>
 
@@ -464,22 +445,15 @@
             </div>
 
 
-            <!-- ITEM 4 -->
-
             <div class="menu-card">
 
-                <img
-                    src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600"
-                    alt="Chocolate Cake"
-                >
+                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600" alt="Chocolate Cake">
 
                 <div class="menu-info">
 
                     <h3>Chocolate Cake</h3>
 
-                    <p>
-                        Delicious chocolate cake with rich frosting.
-                    </p>
+                    <p>Delicious chocolate cake with rich frosting.</p>
 
                     <span class="price">₹160</span>
 
@@ -488,22 +462,15 @@
             </div>
 
 
-            <!-- ITEM 5 -->
-
             <div class="menu-card">
 
-                <img
-                    src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600"
-                    alt="Pastry"
-                >
+                <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600" alt="Pastry">
 
                 <div class="menu-info">
 
                     <h3>Fresh Pastry</h3>
 
-                    <p>
-                        Soft and delicious pastry made fresh daily.
-                    </p>
+                    <p>Soft and delicious pastry made fresh daily.</p>
 
                     <span class="price">₹140</span>
 
@@ -512,22 +479,15 @@
             </div>
 
 
-            <!-- ITEM 6 -->
-
             <div class="menu-card">
 
-                <img
-                    src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=600"
-                    alt="Cold Coffee"
-                >
+                <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=600" alt="Cold Coffee">
 
                 <div class="menu-info">
 
                     <h3>Cold Coffee</h3>
 
-                    <p>
-                        Refreshing chilled coffee with creamy milk.
-                    </p>
+                    <p>Refreshing chilled coffee with creamy milk.</p>
 
                     <span class="price">₹190</span>
 
@@ -546,15 +506,15 @@
 
         <img
             src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=900"
-            alt="HOPE Cafe Interior"
+            alt="HOPE CAFE Interior"
         >
 
         <div class="about-content">
 
-            <h2>About HOPE Café</h2>
+            <h2>About HOPE CAFE</h2>
 
             <p>
-                Welcome to HOPE Café, a cozy place where every cup
+                Welcome to HOPE CAFE, a cozy place where every cup
                 of coffee tells a story. We believe in serving quality
                 coffee, delicious food and unforgettable experiences.
             </p>
@@ -576,9 +536,7 @@
 
         <h2>Special Coffee Offer!</h2>
 
-        <p>
-            Enjoy 20% OFF on your first coffee order.
-        </p>
+        <p>Enjoy 20% OFF on your first coffee order.</p>
 
         <button onclick="document.getElementById('menu').scrollIntoView()">
             Explore Menu
@@ -591,7 +549,7 @@
 
     <section id="contact">
 
-        <h2 class="section-title">Visit HOPE Café</h2>
+        <h2 class="section-title">Visit HOPE CAFE</h2>
 
         <p class="section-description">
             We would love to serve you!
@@ -637,12 +595,13 @@
 
     <footer>
 
-        <p>© 2026 HOPE Café. All Rights Reserved.</p>
+        <p>© 2026 HOPE CAFE. All Rights Reserved.</p>
 
-        <p>HOPE Café – A Little Coffee, A Lot of Happiness. ☕❤️</p>
+        <p>HOPE CAFE - A Little Coffee, A Lot of Happiness. ☕❤️</p>
 
     </footer>
 
 
 </body>
+
 </html>
