@@ -21,8 +21,8 @@
         }
 
         body {
-            background-color: #fffaf3;
-            color: #38291f;
+            background-color: #f3f8f1;
+            color: #304b38;
         }
 
 
@@ -33,17 +33,18 @@
             justify-content: space-between;
             align-items: center;
             padding: 20px 8%;
-            background-color: #3b2418;
-            color: white;
+            background-color: #dcebdc;
             position: sticky;
             top: 0;
             z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
         }
 
         .logo {
             font-size: 27px;
             font-weight: bold;
-            color: #e8b77d;
+            color: #315b43;
+            letter-spacing: 2px;
         }
 
         nav ul {
@@ -54,13 +55,14 @@
 
         nav ul li a {
             text-decoration: none;
-            color: white;
+            color: #315b43;
             font-size: 15px;
+            font-weight: 500;
             transition: 0.3s;
         }
 
         nav ul li a:hover {
-            color: #e8b77d;
+            color: #719b78;
         }
 
 
@@ -71,8 +73,8 @@
 
             background:
                 linear-gradient(
-                    rgba(0,0,0,0.55),
-                    rgba(0,0,0,0.55)
+                    rgba(0,0,0,0.45),
+                    rgba(0,0,0,0.45)
                 ),
                 url('https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=1600')
                 center/cover no-repeat;
@@ -98,17 +100,18 @@
 
         .hero button {
             padding: 14px 30px;
-            background-color: #c58b55;
+            background-color: #91b99a;
             color: white;
             border: none;
-            border-radius: 5px;
+            border-radius: 6px;
             font-size: 16px;
             cursor: pointer;
             transition: 0.3s;
         }
 
         .hero button:hover {
-            background-color: #a96d39;
+            background-color: #719b78;
+            transform: translateY(-3px);
         }
 
 
@@ -122,17 +125,21 @@
             text-align: center;
             font-size: 35px;
             margin-bottom: 15px;
-            color: #56351f;
+            color: #315b43;
         }
 
         .section-description {
             text-align: center;
-            color: #777;
+            color: #718276;
             margin-bottom: 40px;
         }
 
 
         /* MENU SECTION */
+
+        #menu {
+            background-color: #f3f8f1;
+        }
 
         .menu-container {
             display: grid;
@@ -144,7 +151,7 @@
             background-color: white;
             border-radius: 12px;
             overflow: hidden;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.07);
             transition: 0.3s;
         }
 
@@ -165,16 +172,18 @@
         .menu-info h3 {
             font-size: 21px;
             margin-bottom: 10px;
+            color: #315b43;
         }
 
         .menu-info p {
             color: #777;
             font-size: 14px;
             margin-bottom: 15px;
+            line-height: 1.6;
         }
 
         .price {
-            color: #a96d39;
+            color: #648d6b;
             font-size: 20px;
             font-weight: bold;
         }
@@ -183,7 +192,7 @@
         /* ABOUT SECTION */
 
         .about {
-            background-color: #f1e5d5;
+            background-color: #e5f0e3;
             display: flex;
             align-items: center;
             gap: 50px;
@@ -203,22 +212,22 @@
         .about-content h2 {
             font-size: 35px;
             margin-bottom: 20px;
-            color: #56351f;
+            color: #315b43;
         }
 
         .about-content p {
             line-height: 1.8;
-            color: #665548;
+            color: #526b57;
             margin-bottom: 15px;
         }
 
 
-        /* SPECIAL OFFER */
+        /* SPECIAL OFFER SECTION */
 
         .offer {
             text-align: center;
-            background-color: #4b3022;
-            color: white;
+            background-color: #dcebdc;
+            color: #315b43;
         }
 
         .offer h2 {
@@ -229,24 +238,30 @@
         .offer p {
             margin-bottom: 25px;
             font-size: 17px;
+            color: #526b57;
         }
 
         .offer button {
             padding: 13px 30px;
-            background-color: #d5a16b;
+            background-color: #80a987;
             border: none;
-            border-radius: 5px;
+            border-radius: 6px;
             color: white;
             font-size: 16px;
             cursor: pointer;
+            transition: 0.3s;
         }
 
         .offer button:hover {
-            background-color: #a96d39;
+            background-color: #648d6b;
         }
 
 
         /* CONTACT SECTION */
+
+        #contact {
+            background-color: #f3f8f1;
+        }
 
         .contact-container {
             display: flex;
@@ -263,15 +278,20 @@
             flex: 1;
             min-width: 200px;
             box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+            transition: 0.3s;
+        }
+
+        .contact-box:hover {
+            transform: translateY(-5px);
         }
 
         .contact-box h3 {
             margin-bottom: 12px;
-            color: #a96d39;
+            color: #648d6b;
         }
 
         .contact-box p {
-            color: #777;
+            color: #718276;
             line-height: 1.7;
         }
 
@@ -279,8 +299,8 @@
         /* FOOTER */
 
         footer {
-            background-color: #3b2418;
-            color: white;
+            background-color: #dcebdc;
+            color: #315b43;
             text-align: center;
             padding: 25px;
         }
@@ -306,7 +326,9 @@
             .about img {
                 width: 100%;
             }
+
         }
+
 
         @media (max-width: 600px) {
 
@@ -315,8 +337,12 @@
                 gap: 20px;
             }
 
+            .logo {
+                font-size: 23px;
+            }
+
             nav ul {
-                gap: 12px;
+                gap: 15px;
                 flex-wrap: wrap;
                 justify-content: center;
             }
@@ -340,6 +366,11 @@
             .section-title {
                 font-size: 28px;
             }
+
+            .about-content h2 {
+                font-size: 28px;
+            }
+
         }
 
     </style>
@@ -354,7 +385,7 @@
 
     <nav>
 
-        <div class="logo">☕ HOPE CAFE</div>
+        <div class="logo">HOPE CAFE</div>
 
         <ul>
             <li><a href="#home">Home</a></li>
@@ -394,15 +425,22 @@
         <div class="menu-container">
 
 
+            <!-- CAPPUCCINO -->
+
             <div class="menu-card">
 
-                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600" alt="Cappuccino">
+                <img
+                    src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600"
+                    alt="Cappuccino"
+                >
 
                 <div class="menu-info">
 
                     <h3>Cappuccino</h3>
 
-                    <p>Rich espresso topped with creamy steamed milk.</p>
+                    <p>
+                        Rich espresso topped with creamy steamed milk.
+                    </p>
 
                     <span class="price">₹180</span>
 
@@ -411,15 +449,22 @@
             </div>
 
 
+            <!-- LATTE -->
+
             <div class="menu-card">
 
-                <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=600" alt="Latte">
+                <img
+                    src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=600"
+                    alt="Latte"
+                >
 
                 <div class="menu-info">
 
                     <h3>Classic Latte</h3>
 
-                    <p>Smooth espresso blended with fresh milk.</p>
+                    <p>
+                        Smooth espresso blended with fresh milk.
+                    </p>
 
                     <span class="price">₹200</span>
 
@@ -428,15 +473,22 @@
             </div>
 
 
+            <!-- CROISSANT -->
+
             <div class="menu-card">
 
-                <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600" alt="Croissant">
+                <img
+                    src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600"
+                    alt="Croissant"
+                >
 
                 <div class="menu-info">
 
                     <h3>Butter Croissant</h3>
 
-                    <p>Freshly baked, crispy and buttery pastry.</p>
+                    <p>
+                        Freshly baked, crispy and buttery pastry.
+                    </p>
 
                     <span class="price">₹120</span>
 
@@ -445,15 +497,22 @@
             </div>
 
 
+            <!-- CHOCOLATE CAKE -->
+
             <div class="menu-card">
 
-                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600" alt="Chocolate Cake">
+                <img
+                    src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600"
+                    alt="Chocolate Cake"
+                >
 
                 <div class="menu-info">
 
                     <h3>Chocolate Cake</h3>
 
-                    <p>Delicious chocolate cake with rich frosting.</p>
+                    <p>
+                        Delicious chocolate cake with rich frosting.
+                    </p>
 
                     <span class="price">₹160</span>
 
@@ -462,15 +521,22 @@
             </div>
 
 
+            <!-- PASTRY -->
+
             <div class="menu-card">
 
-                <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600" alt="Pastry">
+                <img
+                    src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600"
+                    alt="Fresh Pastry"
+                >
 
                 <div class="menu-info">
 
                     <h3>Fresh Pastry</h3>
 
-                    <p>Soft and delicious pastry made fresh daily.</p>
+                    <p>
+                        Soft and delicious pastry made fresh daily.
+                    </p>
 
                     <span class="price">₹140</span>
 
@@ -479,15 +545,22 @@
             </div>
 
 
+            <!-- COLD COFFEE -->
+
             <div class="menu-card">
 
-                <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=600" alt="Cold Coffee">
+                <img
+                    src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=600"
+                    alt="Cold Coffee"
+                >
 
                 <div class="menu-info">
 
                     <h3>Cold Coffee</h3>
 
-                    <p>Refreshing chilled coffee with creamy milk.</p>
+                    <p>
+                        Refreshing chilled coffee with creamy milk.
+                    </p>
 
                     <span class="price">₹190</span>
 
@@ -536,7 +609,9 @@
 
         <h2>Special Coffee Offer!</h2>
 
-        <p>Enjoy 20% OFF on your first coffee order.</p>
+        <p>
+            Enjoy 20% OFF on your first coffee order.
+        </p>
 
         <button onclick="document.getElementById('menu').scrollIntoView()">
             Explore Menu
@@ -560,7 +635,7 @@
 
             <div class="contact-box">
 
-                <h3>📍 Location</h3>
+                <h3>Location</h3>
 
                 <p>Main Street, City Center</p>
 
@@ -569,7 +644,7 @@
 
             <div class="contact-box">
 
-                <h3>📞 Phone</h3>
+                <h3>Phone</h3>
 
                 <p>+91 98765 43210</p>
 
@@ -578,7 +653,7 @@
 
             <div class="contact-box">
 
-                <h3>🕒 Opening Hours</h3>
+                <h3>Opening Hours</h3>
 
                 <p>Monday - Sunday</p>
 
@@ -597,7 +672,7 @@
 
         <p>© 2026 HOPE CAFE. All Rights Reserved.</p>
 
-        <p>HOPE CAFE - A Little Coffee, A Lot of Happiness. ☕❤️</p>
+        <p>HOPE CAFE - A Little Coffee, A Lot of Happiness.</p>
 
     </footer>
 
