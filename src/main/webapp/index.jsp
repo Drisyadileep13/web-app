@@ -21,8 +21,8 @@
         }
 
         body {
-            background-color: #f3f8f1;
-            color: #304b38;
+            background-color: #fffaf3;
+            color: #38291f;
         }
 
 
@@ -33,17 +33,17 @@
             justify-content: space-between;
             align-items: center;
             padding: 20px 8%;
-            background-color: #dcebdc;
+            background-color: #3b2418;
             position: sticky;
             top: 0;
             z-index: 100;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
 
         .logo {
             font-size: 27px;
             font-weight: bold;
-            color: #315b43;
+            color: #e8b77d;
             letter-spacing: 2px;
         }
 
@@ -55,14 +55,14 @@
 
         nav ul li a {
             text-decoration: none;
-            color: #315b43;
+            color: white;
             font-size: 15px;
             font-weight: 500;
             transition: 0.3s;
         }
 
         nav ul li a:hover {
-            color: #719b78;
+            color: #e8b77d;
         }
 
 
@@ -100,7 +100,7 @@
 
         .hero button {
             padding: 14px 30px;
-            background-color: #91b99a;
+            background-color: #c58b55;
             color: white;
             border: none;
             border-radius: 6px;
@@ -110,7 +110,7 @@
         }
 
         .hero button:hover {
-            background-color: #719b78;
+            background-color: #a96d39;
             transform: translateY(-3px);
         }
 
@@ -125,12 +125,12 @@
             text-align: center;
             font-size: 35px;
             margin-bottom: 15px;
-            color: #315b43;
+            color: #56351f;
         }
 
         .section-description {
             text-align: center;
-            color: #718276;
+            color: #777;
             margin-bottom: 40px;
         }
 
@@ -138,7 +138,7 @@
         /* MENU SECTION */
 
         #menu {
-            background-color: #f3f8f1;
+            background-color: #fffaf3;
         }
 
         .menu-container {
@@ -151,7 +151,7 @@
             background-color: white;
             border-radius: 12px;
             overflow: hidden;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
             transition: 0.3s;
         }
 
@@ -172,7 +172,7 @@
         .menu-info h3 {
             font-size: 21px;
             margin-bottom: 10px;
-            color: #315b43;
+            color: #56351f;
         }
 
         .menu-info p {
@@ -183,7 +183,7 @@
         }
 
         .price {
-            color: #648d6b;
+            color: #a96d39;
             font-size: 20px;
             font-weight: bold;
         }
@@ -192,7 +192,7 @@
         /* ABOUT SECTION */
 
         .about {
-            background-color: #e5f0e3;
+            background-color: #f1e5d5;
             display: flex;
             align-items: center;
             gap: 50px;
@@ -212,12 +212,12 @@
         .about-content h2 {
             font-size: 35px;
             margin-bottom: 20px;
-            color: #315b43;
+            color: #56351f;
         }
 
         .about-content p {
             line-height: 1.8;
-            color: #526b57;
+            color: #665548;
             margin-bottom: 15px;
         }
 
@@ -226,8 +226,8 @@
 
         .offer {
             text-align: center;
-            background-color: #dcebdc;
-            color: #315b43;
+            background-color: #4b3022;
+            color: white;
         }
 
         .offer h2 {
@@ -238,12 +238,12 @@
         .offer p {
             margin-bottom: 25px;
             font-size: 17px;
-            color: #526b57;
+            color: #f1e5d5;
         }
 
         .offer button {
             padding: 13px 30px;
-            background-color: #80a987;
+            background-color: #d5a16b;
             border: none;
             border-radius: 6px;
             color: white;
@@ -253,14 +253,14 @@
         }
 
         .offer button:hover {
-            background-color: #648d6b;
+            background-color: #a96d39;
         }
 
 
         /* CONTACT SECTION */
 
         #contact {
-            background-color: #f3f8f1;
+            background-color: #fffaf3;
         }
 
         .contact-container {
@@ -287,11 +287,11 @@
 
         .contact-box h3 {
             margin-bottom: 12px;
-            color: #648d6b;
+            color: #a96d39;
         }
 
         .contact-box p {
-            color: #718276;
+            color: #777;
             line-height: 1.7;
         }
 
@@ -299,8 +299,8 @@
         /* FOOTER */
 
         footer {
-            background-color: #dcebdc;
-            color: #315b43;
+            background-color: #3b2418;
+            color: white;
             text-align: center;
             padding: 25px;
         }
@@ -429,10 +429,8 @@
 
             <div class="menu-card">
 
-                <img
-                    src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600"
-                    alt="Cappuccino"
-                >
+                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600"
+                     alt="Cappuccino">
 
                 <div class="menu-info">
 
@@ -453,10 +451,8 @@
 
             <div class="menu-card">
 
-                <img
-                    src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=600"
-                    alt="Latte"
-                >
+                <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=600"
+                     alt="Latte">
 
                 <div class="menu-info">
 
@@ -477,10 +473,8 @@
 
             <div class="menu-card">
 
-                <img
-                    src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600"
-                    alt="Croissant"
-                >
+                <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600"
+                     alt="Croissant">
 
                 <div class="menu-info">
 
@@ -501,10 +495,8 @@
 
             <div class="menu-card">
 
-                <img
-                    src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600"
-                    alt="Chocolate Cake"
-                >
+                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600"
+                     alt="Chocolate Cake">
 
                 <div class="menu-info">
 
@@ -525,10 +517,8 @@
 
             <div class="menu-card">
 
-                <img
-                    src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600"
-                    alt="Fresh Pastry"
-                >
+                <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600"
+                     alt="Fresh Pastry">
 
                 <div class="menu-info">
 
@@ -549,10 +539,8 @@
 
             <div class="menu-card">
 
-                <img
-                    src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=600"
-                    alt="Cold Coffee"
-                >
+                <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=600"
+                     alt="Cold Coffee">
 
                 <div class="menu-info">
 
@@ -577,10 +565,8 @@
 
     <section class="about" id="about">
 
-        <img
-            src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=900"
-            alt="HOPE CAFE Interior"
-        >
+        <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=900"
+             alt="HOPE CAFE Interior">
 
         <div class="about-content">
 
