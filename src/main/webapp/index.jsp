@@ -285,7 +285,7 @@
         <nav>
             <a href="#" class="active">Dashboard</a>
             <a href="#">My Tasks</a>
-            <a href="#">Projects</a>
+            <a href="#">Project</a>
             <a href="#">Calendar</a>
             <a href="#">Messages</a>
             <a href="#">Settings</a>
