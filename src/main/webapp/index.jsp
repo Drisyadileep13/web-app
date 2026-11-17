@@ -4,15 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOPE</title>
+
+    <title>HOPE Café</title>
 
     <style>
-        /* General Styling */
+
+        /* GENERAL STYLING */
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Arial', sans-serif;
+            font-family: Arial, sans-serif;
             scroll-behavior: smooth;
         }
 
@@ -21,7 +24,9 @@
             color: #38291f;
         }
 
-        /* Navigation Bar */
+
+        /* NAVIGATION BAR */
+
         nav {
             display: flex;
             justify-content: space-between;
@@ -57,11 +62,17 @@
             color: #e8b77d;
         }
 
-        /* Hero Section */
+
+        /* HERO SECTION */
+
         .hero {
             height: 550px;
+
             background:
-                linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+                linear-gradient(
+                    rgba(0,0,0,0.55),
+                    rgba(0,0,0,0.55)
+                ),
                 url('https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=1600')
                 center/cover no-repeat;
 
@@ -99,7 +110,9 @@
             background-color: #a96d39;
         }
 
-        /* Common Section Styling */
+
+        /* COMMON SECTION STYLING */
+
         section {
             padding: 70px 8%;
         }
@@ -117,7 +130,9 @@
             margin-bottom: 40px;
         }
 
-        /* Menu Section */
+
+        /* MENU SECTION */
+
         .menu-container {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -163,7 +178,9 @@
             font-weight: bold;
         }
 
-        /* About Section */
+
+        /* ABOUT SECTION */
+
         .about {
             background-color: #f1e5d5;
             display: flex;
@@ -194,7 +211,9 @@
             margin-bottom: 15px;
         }
 
-        /* Special Offer */
+
+        /* SPECIAL OFFER */
+
         .offer {
             text-align: center;
             background-color: #4b3022;
@@ -221,7 +240,13 @@
             cursor: pointer;
         }
 
-        /* Contact Section */
+        .offer button:hover {
+            background-color: #a96d39;
+        }
+
+
+        /* CONTACT SECTION */
+
         .contact-container {
             display: flex;
             justify-content: space-around;
@@ -249,7 +274,9 @@
             line-height: 1.7;
         }
 
-        /* Footer */
+
+        /* FOOTER */
+
         footer {
             background-color: #3b2418;
             color: white;
@@ -259,10 +286,14 @@
 
         footer p {
             font-size: 14px;
+            margin-bottom: 8px;
         }
 
-        /* Responsive Design */
+
+        /* RESPONSIVE DESIGN */
+
         @media (max-width: 900px) {
+
             .menu-container {
                 grid-template-columns: repeat(2, 1fr);
             }
@@ -277,6 +308,7 @@
         }
 
         @media (max-width: 600px) {
+
             nav {
                 flex-direction: column;
                 gap: 20px;
@@ -310,13 +342,17 @@
         }
 
     </style>
+
 </head>
 
 <body>
 
-    <!-- Navigation Bar -->
+
+    <!-- NAVIGATION BAR -->
+
     <nav>
-        <div class="logo">☕ Brew & Bean</div>
+
+        <div class="logo">☕ HOPE Café</div>
 
         <ul>
             <li><a href="#home">Home</a></li>
@@ -324,15 +360,17 @@
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
+
     </nav>
 
 
-    <!-- Hero Section -->
+    <!-- HERO SECTION -->
+
     <section class="hero" id="home">
 
-        <h1>Welcome to Brew & Bean</h1>
+        <h1>Welcome to HOPE Café</h1>
 
-        <p>Fresh Coffee, Delicious Food & Beautiful Moments.</p>
+        <p>A Little Coffee, A Lot of Happiness.</p>
 
         <button onclick="document.getElementById('menu').scrollIntoView()">
             Explore Our Menu
@@ -341,7 +379,8 @@
     </section>
 
 
-    <!-- Menu Section -->
+    <!-- MENU SECTION -->
+
     <section id="menu">
 
         <h2 class="section-title">Our Special Menu</h2>
@@ -352,69 +391,148 @@
 
         <div class="menu-container">
 
+
+            <!-- ITEM 1 -->
+
             <div class="menu-card">
-                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600" alt="Cappuccino">
+
+                <img
+                    src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600"
+                    alt="Cappuccino"
+                >
 
                 <div class="menu-info">
+
                     <h3>Cappuccino</h3>
-                    <p>Rich espresso topped with creamy steamed milk.</p>
+
+                    <p>
+                        Rich espresso topped with creamy steamed milk.
+                    </p>
+
                     <span class="price">₹180</span>
+
                 </div>
+
             </div>
 
 
+            <!-- ITEM 2 -->
+
             <div class="menu-card">
-                <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=600" alt="Latte">
+
+                <img
+                    src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=600"
+                    alt="Latte"
+                >
 
                 <div class="menu-info">
+
                     <h3>Classic Latte</h3>
-                    <p>Smooth espresso blended with fresh milk.</p>
+
+                    <p>
+                        Smooth espresso blended with fresh milk.
+                    </p>
+
                     <span class="price">₹200</span>
+
                 </div>
+
             </div>
 
 
+            <!-- ITEM 3 -->
+
             <div class="menu-card">
-                <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600" alt="Croissant">
+
+                <img
+                    src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600"
+                    alt="Croissant"
+                >
 
                 <div class="menu-info">
+
                     <h3>Butter Croissant</h3>
-                    <p>Freshly baked, crispy and buttery pastry.</p>
+
+                    <p>
+                        Freshly baked, crispy and buttery pastry.
+                    </p>
+
                     <span class="price">₹120</span>
+
                 </div>
+
             </div>
 
 
+            <!-- ITEM 4 -->
+
             <div class="menu-card">
-                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600" alt="Chocolate Cake">
+
+                <img
+                    src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600"
+                    alt="Chocolate Cake"
+                >
 
                 <div class="menu-info">
+
                     <h3>Chocolate Cake</h3>
-                    <p>Delicious chocolate cake with rich frosting.</p>
+
+                    <p>
+                        Delicious chocolate cake with rich frosting.
+                    </p>
+
                     <span class="price">₹160</span>
+
                 </div>
+
             </div>
 
 
+            <!-- ITEM 5 -->
+
             <div class="menu-card">
-                <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600" alt="Pastry">
+
+                <img
+                    src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600"
+                    alt="Pastry"
+                >
 
                 <div class="menu-info">
+
                     <h3>Fresh Pastry</h3>
-                    <p>Soft and delicious pastry made fresh daily.</p>
+
+                    <p>
+                        Soft and delicious pastry made fresh daily.
+                    </p>
+
                     <span class="price">₹140</span>
+
                 </div>
+
             </div>
 
 
+            <!-- ITEM 6 -->
+
             <div class="menu-card">
-                <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=600" alt="Cold Coffee">
+
+                <img
+                    src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=600"
+                    alt="Cold Coffee"
+                >
 
                 <div class="menu-info">
+
                     <h3>Cold Coffee</h3>
-                    <p>Refreshing chilled coffee with creamy milk.</p>
+
+                    <p>
+                        Refreshing chilled coffee with creamy milk.
+                    </p>
+
                     <span class="price">₹190</span>
+
                 </div>
+
             </div>
 
         </div>
@@ -422,17 +540,21 @@
     </section>
 
 
-    <!-- About Section -->
+    <!-- ABOUT SECTION -->
+
     <section class="about" id="about">
 
-        <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=900" alt="Cafe Interior">
+        <img
+            src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=900"
+            alt="HOPE Cafe Interior"
+        >
 
         <div class="about-content">
 
-            <h2>About Our Cafe</h2>
+            <h2>About HOPE Café</h2>
 
             <p>
-                Welcome to Brew & Bean, a cozy place where every cup
+                Welcome to HOPE Café, a cozy place where every cup
                 of coffee tells a story. We believe in serving quality
                 coffee, delicious food and unforgettable experiences.
             </p>
@@ -448,12 +570,15 @@
     </section>
 
 
-    <!-- Special Offer -->
+    <!-- SPECIAL OFFER SECTION -->
+
     <section class="offer">
 
         <h2>Special Coffee Offer!</h2>
 
-        <p>Enjoy 20% OFF on your first coffee order.</p>
+        <p>
+            Enjoy 20% OFF on your first coffee order.
+        </p>
 
         <button onclick="document.getElementById('menu').scrollIntoView()">
             Explore Menu
@@ -462,10 +587,11 @@
     </section>
 
 
-    <!-- Contact Section -->
+    <!-- CONTACT SECTION -->
+
     <section id="contact">
 
-        <h2 class="section-title">Visit Our Cafe</h2>
+        <h2 class="section-title">Visit HOPE Café</h2>
 
         <p class="section-description">
             We would love to serve you!
@@ -473,20 +599,33 @@
 
         <div class="contact-container">
 
+
             <div class="contact-box">
+
                 <h3>📍 Location</h3>
+
                 <p>Main Street, City Center</p>
+
             </div>
 
+
             <div class="contact-box">
+
                 <h3>📞 Phone</h3>
+
                 <p>+91 98765 43210</p>
+
             </div>
 
+
             <div class="contact-box">
+
                 <h3>🕒 Opening Hours</h3>
+
                 <p>Monday - Sunday</p>
+
                 <p>9:00 AM - 10:00 PM</p>
+
             </div>
 
         </div>
@@ -494,14 +633,16 @@
     </section>
 
 
-    <!-- Footer -->
+    <!-- FOOTER -->
+
     <footer>
 
-        <p>© 2026 Brew & Bean Cafe. All Rights Reserved.</p>
+        <p>© 2026 HOPE Café. All Rights Reserved.</p>
 
-        <p>Made with ❤️ and Coffee ☕</p>
+        <p>HOPE Café – A Little Coffee, A Lot of Happiness. ☕❤️</p>
 
     </footer>
+
 
 </body>
 </html>
