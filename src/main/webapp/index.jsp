@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>HOPE CAFE</title>
+    <title>RHYTHM DANCE ACADEMY</title>
 
     <style>
 
@@ -21,8 +21,8 @@
         }
 
         body {
-            background-color: #fffaf3;
-            color: #38291f;
+            background-color: #faf7ff;
+            color: #292034;
         }
 
 
@@ -33,17 +33,16 @@
             justify-content: space-between;
             align-items: center;
             padding: 20px 8%;
-            background-color: #3b2418;
+            background-color: #1b1028;
             position: sticky;
             top: 0;
             z-index: 100;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
 
         .logo {
-            font-size: 27px;
+            color: #ed91d2;
+            font-size: 25px;
             font-weight: bold;
-            color: #e8b77d;
             letter-spacing: 2px;
         }
 
@@ -57,26 +56,25 @@
             text-decoration: none;
             color: white;
             font-size: 15px;
-            font-weight: 500;
             transition: 0.3s;
         }
 
         nav ul li a:hover {
-            color: #e8b77d;
+            color: #ed91d2;
         }
 
 
         /* HERO SECTION */
 
         .hero {
-            height: 550px;
+            height: 600px;
 
             background:
                 linear-gradient(
-                    rgba(0,0,0,0.45),
-                    rgba(0,0,0,0.45)
+                    rgba(20, 5, 35, 0.55),
+                    rgba(20, 5, 35, 0.65)
                 ),
-                url('https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=1600')
+                url('https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=1600')
                 center/cover no-repeat;
 
             display: flex;
@@ -89,8 +87,13 @@
         }
 
         .hero h1 {
-            font-size: 55px;
+            font-size: 58px;
             margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+
+        .hero h1 span {
+            color: #ed91d2;
         }
 
         .hero p {
@@ -99,18 +102,18 @@
         }
 
         .hero button {
-            padding: 14px 30px;
-            background-color: #c58b55;
+            padding: 15px 35px;
+            background-color: #d84ca9;
             color: white;
             border: none;
-            border-radius: 6px;
+            border-radius: 30px;
             font-size: 16px;
             cursor: pointer;
             transition: 0.3s;
         }
 
         .hero button:hover {
-            background-color: #a96d39;
+            background-color: #a92b7e;
             transform: translateY(-3px);
         }
 
@@ -118,91 +121,38 @@
         /* COMMON SECTION STYLING */
 
         section {
-            padding: 70px 8%;
+            padding: 75px 8%;
         }
 
         .section-title {
             text-align: center;
-            font-size: 35px;
+            font-size: 36px;
+            color: #402454;
             margin-bottom: 15px;
-            color: #56351f;
         }
 
         .section-description {
             text-align: center;
             color: #777;
-            margin-bottom: 40px;
-        }
-
-
-        /* MENU SECTION */
-
-        #menu {
-            background-color: #fffaf3;
-        }
-
-        .menu-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 30px;
-        }
-
-        .menu-card {
-            background-color: white;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-            transition: 0.3s;
-        }
-
-        .menu-card:hover {
-            transform: translateY(-8px);
-        }
-
-        .menu-card img {
-            width: 100%;
-            height: 220px;
-            object-fit: cover;
-        }
-
-        .menu-info {
-            padding: 20px;
-        }
-
-        .menu-info h3 {
-            font-size: 21px;
-            margin-bottom: 10px;
-            color: #56351f;
-        }
-
-        .menu-info p {
-            color: #777;
-            font-size: 14px;
-            margin-bottom: 15px;
-            line-height: 1.6;
-        }
-
-        .price {
-            color: #a96d39;
-            font-size: 20px;
-            font-weight: bold;
+            margin-bottom: 45px;
+            line-height: 1.7;
         }
 
 
         /* ABOUT SECTION */
 
         .about {
-            background-color: #f1e5d5;
             display: flex;
             align-items: center;
             gap: 50px;
+            background-color: #f0e8f7;
         }
 
         .about img {
             width: 45%;
-            height: 350px;
+            height: 370px;
             object-fit: cover;
-            border-radius: 12px;
+            border-radius: 15px;
         }
 
         .about-content {
@@ -211,83 +161,186 @@
 
         .about-content h2 {
             font-size: 35px;
+            color: #542d70;
             margin-bottom: 20px;
-            color: #56351f;
         }
 
         .about-content p {
-            line-height: 1.8;
-            color: #665548;
+            line-height: 1.9;
+            color: #62576a;
             margin-bottom: 15px;
         }
 
 
-        /* SPECIAL OFFER SECTION */
+        /* DANCE STYLES SECTION */
 
-        .offer {
-            text-align: center;
-            background-color: #4b3022;
-            color: white;
+        #courses {
+            background-color: #faf7ff;
         }
 
-        .offer h2 {
-            font-size: 35px;
-            margin-bottom: 15px;
+        .course-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
         }
 
-        .offer p {
-            margin-bottom: 25px;
-            font-size: 17px;
-            color: #f1e5d5;
-        }
-
-        .offer button {
-            padding: 13px 30px;
-            background-color: #d5a16b;
-            border: none;
-            border-radius: 6px;
-            color: white;
-            font-size: 16px;
-            cursor: pointer;
+        .course-card {
+            background-color: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
             transition: 0.3s;
         }
 
-        .offer button:hover {
-            background-color: #a96d39;
+        .course-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .course-card img {
+            width: 100%;
+            height: 230px;
+            object-fit: cover;
+        }
+
+        .course-info {
+            padding: 22px;
+            text-align: center;
+        }
+
+        .course-info h3 {
+            color: #542d70;
+            font-size: 22px;
+            margin-bottom: 12px;
+        }
+
+        .course-info p {
+            color: #777;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .course-info span {
+            color: #d84ca9;
+            font-weight: bold;
+        }
+
+
+        /* INSTRUCTORS SECTION */
+
+        .instructors {
+            background-color: #f0e8f7;
+        }
+
+        .instructor-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .instructor-card {
+            background-color: white;
+            text-align: center;
+            border-radius: 15px;
+            overflow: hidden;
+            padding-bottom: 25px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+        }
+
+        .instructor-card img {
+            width: 100%;
+            height: 270px;
+            object-fit: cover;
+        }
+
+        .instructor-card h3 {
+            color: #542d70;
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+
+        .instructor-card p {
+            color: #888;
+        }
+
+
+        /* CLASS SCHEDULE */
+
+        .schedule-table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+        }
+
+        .schedule-table th,
+        .schedule-table td {
+            padding: 18px;
+            text-align: center;
+            border: 1px solid #eee;
+        }
+
+        .schedule-table th {
+            background-color: #542d70;
+            color: white;
+        }
+
+        .schedule-table tr:nth-child(even) {
+            background-color: #f5eef9;
+        }
+
+
+        /* REGISTRATION SECTION */
+
+        .registration {
+            background-color: #271537;
+            color: white;
+            text-align: center;
+        }
+
+        .registration h2 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .registration p {
+            color: #e3d5ed;
+            margin-bottom: 25px;
+        }
+
+        .registration button {
+            padding: 15px 35px;
+            background-color: #d84ca9;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .registration button:hover {
+            background-color: #a92b7e;
         }
 
 
         /* CONTACT SECTION */
 
-        #contact {
-            background-color: #fffaf3;
-        }
-
         .contact-container {
             display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            gap: 30px;
+            gap: 25px;
+            justify-content: space-between;
             text-align: center;
         }
 
         .contact-box {
-            padding: 25px;
-            background-color: white;
-            border-radius: 10px;
             flex: 1;
-            min-width: 200px;
-            box-shadow: 0 3px 12px rgba(0,0,0,0.05);
-            transition: 0.3s;
-        }
-
-        .contact-box:hover {
-            transform: translateY(-5px);
+            padding: 30px 15px;
+            background-color: #f0e8f7;
+            border-radius: 12px;
         }
 
         .contact-box h3 {
-            margin-bottom: 12px;
-            color: #a96d39;
+            color: #542d70;
+            margin-bottom: 15px;
         }
 
         .contact-box p {
@@ -299,15 +352,15 @@
         /* FOOTER */
 
         footer {
-            background-color: #3b2418;
+            background-color: #1b1028;
             color: white;
             text-align: center;
-            padding: 25px;
+            padding: 30px;
         }
 
         footer p {
+            margin-bottom: 10px;
             font-size: 14px;
-            margin-bottom: 8px;
         }
 
 
@@ -315,7 +368,8 @@
 
         @media (max-width: 900px) {
 
-            .menu-container {
+            .course-container,
+            .instructor-container {
                 grid-template-columns: repeat(2, 1fr);
             }
 
@@ -337,14 +391,14 @@
                 gap: 20px;
             }
 
-            .logo {
-                font-size: 23px;
-            }
-
             nav ul {
-                gap: 15px;
+                gap: 13px;
                 flex-wrap: wrap;
                 justify-content: center;
+            }
+
+            .logo {
+                font-size: 21px;
             }
 
             .hero {
@@ -359,7 +413,8 @@
                 font-size: 16px;
             }
 
-            .menu-container {
+            .course-container,
+            .instructor-container {
                 grid-template-columns: 1fr;
             }
 
@@ -367,8 +422,14 @@
                 font-size: 28px;
             }
 
-            .about-content h2 {
-                font-size: 28px;
+            .contact-container {
+                flex-direction: column;
+            }
+
+            .schedule-table th,
+            .schedule-table td {
+                padding: 10px 5px;
+                font-size: 12px;
             }
 
         }
@@ -385,12 +446,14 @@
 
     <nav>
 
-        <div class="logo">HOPE CAFE</div>
+        <div class="logo">RHYTHM DANCE ACADEMY</div>
 
         <ul>
             <li><a href="#home">Home</a></li>
-            <li><a href="#menu">Menu</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#instructors">Instructors</a></li>
+            <li><a href="#schedule">Schedule</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
 
@@ -401,162 +464,13 @@
 
     <section class="hero" id="home">
 
-        <h1>Welcome to HOPE CAFE</h1>
+        <h1>EXPRESS YOUR <span>RHYTHM</span></h1>
 
-        <p>A Little Coffee, A Lot of Happiness.</p>
+        <p>Discover Your Passion. Dance With Confidence.</p>
 
-        <button onclick="document.getElementById('menu').scrollIntoView()">
-            Explore Our Menu
+        <button onclick="document.getElementById('courses').scrollIntoView()">
+            Explore Our Classes
         </button>
-
-    </section>
-
-
-    <!-- MENU SECTION -->
-
-    <section id="menu">
-
-        <h2 class="section-title">Our Special Menu</h2>
-
-        <p class="section-description">
-            Discover our freshly prepared coffee and delicious treats.
-        </p>
-
-        <div class="menu-container">
-
-
-            <!-- CAPPUCCINO -->
-
-            <div class="menu-card">
-
-                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600"
-                     alt="Cappuccino">
-
-                <div class="menu-info">
-
-                    <h3>Cappuccino</h3>
-
-                    <p>
-                        Rich espresso topped with creamy steamed milk.
-                    </p>
-
-                    <span class="price">₹180</span>
-
-                </div>
-
-            </div>
-
-
-            <!-- LATTE -->
-
-            <div class="menu-card">
-
-                <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=600"
-                     alt="Latte">
-
-                <div class="menu-info">
-
-                    <h3>Classic Latte</h3>
-
-                    <p>
-                        Smooth espresso blended with fresh milk.
-                    </p>
-
-                    <span class="price">₹200</span>
-
-                </div>
-
-            </div>
-
-
-            <!-- CROISSANT -->
-
-            <div class="menu-card">
-
-                <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600"
-                     alt="Croissant">
-
-                <div class="menu-info">
-
-                    <h3>Butter Croissant</h3>
-
-                    <p>
-                        Freshly baked, crispy and buttery pastry.
-                    </p>
-
-                    <span class="price">₹120</span>
-
-                </div>
-
-            </div>
-
-
-            <!-- CHOCOLATE CAKE -->
-
-            <div class="menu-card">
-
-                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600"
-                     alt="Chocolate Cake">
-
-                <div class="menu-info">
-
-                    <h3>Chocolate Cake</h3>
-
-                    <p>
-                        Delicious chocolate cake with rich frosting.
-                    </p>
-
-                    <span class="price">₹160</span>
-
-                </div>
-
-            </div>
-
-
-            <!-- PASTRY -->
-
-            <div class="menu-card">
-
-                <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600"
-                     alt="Fresh Pastry">
-
-                <div class="menu-info">
-
-                    <h3>Fresh Pastry</h3>
-
-                    <p>
-                        Soft and delicious pastry made fresh daily.
-                    </p>
-
-                    <span class="price">₹140</span>
-
-                </div>
-
-            </div>
-
-
-            <!-- COLD COFFEE -->
-
-            <div class="menu-card">
-
-                <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=600"
-                     alt="Cold Coffee">
-
-                <div class="menu-info">
-
-                    <h3>Cold Coffee</h3>
-
-                    <p>
-                        Refreshing chilled coffee with creamy milk.
-                    </p>
-
-                    <span class="price">₹190</span>
-
-                </div>
-
-            </div>
-
-        </div>
 
     </section>
 
@@ -565,23 +479,29 @@
 
     <section class="about" id="about">
 
-        <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=900"
-             alt="HOPE CAFE Interior">
+        <img
+            src="https://images.unsplash.com/photo-1547153760-18fc86324498?w=900"
+            alt="Dance students practicing"
+        >
 
         <div class="about-content">
 
-            <h2>About HOPE CAFE</h2>
+            <h2>About Our Academy</h2>
 
             <p>
-                Welcome to HOPE CAFE, a cozy place where every cup
-                of coffee tells a story. We believe in serving quality
-                coffee, delicious food and unforgettable experiences.
+                Welcome to RHYTHM DANCE ACADEMY, where passion meets movement
+                and every step tells a story.
             </p>
 
             <p>
-                From freshly brewed coffee to homemade desserts,
-                everything is prepared with love and care.
-                Visit us and enjoy the perfect coffee experience.
+                We provide a creative and friendly environment for students
+                to discover their dancing talents, develop confidence and
+                express themselves through dance.
+            </p>
+
+            <p>
+                Whether you are a beginner or an experienced dancer,
+                our academy welcomes everyone who loves to dance.
             </p>
 
         </div>
@@ -589,18 +509,292 @@
     </section>
 
 
-    <!-- SPECIAL OFFER SECTION -->
+    <!-- DANCE COURSES SECTION -->
 
-    <section class="offer">
+    <section id="courses">
 
-        <h2>Special Coffee Offer!</h2>
+        <h2 class="section-title">Our Dance Programs</h2>
 
-        <p>
-            Enjoy 20% OFF on your first coffee order.
+        <p class="section-description">
+            Find your style and discover the dancer within you.
         </p>
 
-        <button onclick="document.getElementById('menu').scrollIntoView()">
-            Explore Menu
+        <div class="course-container">
+
+
+            <div class="course-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1504609813442-a8924e83f76e?w=600"
+                    alt="Hip Hop Dance"
+                >
+
+                <div class="course-info">
+
+                    <h3>Hip Hop</h3>
+
+                    <p>
+                        Learn energetic moves, freestyle techniques
+                        and modern street dance.
+                    </p>
+
+                    <span>Beginner to Advanced</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="course-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=600"
+                    alt="Ballet Dance"
+                >
+
+                <div class="course-info">
+
+                    <h3>Ballet</h3>
+
+                    <p>
+                        Develop grace, flexibility, balance
+                        and classical dance techniques.
+                    </p>
+
+                    <span>All Skill Levels</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="course-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=600"
+                    alt="Contemporary Dance"
+                >
+
+                <div class="course-info">
+
+                    <h3>Contemporary</h3>
+
+                    <p>
+                        Express emotions and creativity through
+                        beautiful movements.
+                    </p>
+
+                    <span>Intermediate Level</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="course-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1547153760-18fc86324498?w=600"
+                    alt="Classical Dance"
+                >
+
+                <div class="course-info">
+
+                    <h3>Classical Dance</h3>
+
+                    <p>
+                        Explore traditional dance forms,
+                        rhythm and cultural expression.
+                    </p>
+
+                    <span>All Skill Levels</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="course-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=600"
+                    alt="Zumba Dance"
+                >
+
+                <div class="course-info">
+
+                    <h3>Zumba</h3>
+
+                    <p>
+                        Enjoy fitness and fun with exciting
+                        dance-inspired workouts.
+                    </p>
+
+                    <span>All Fitness Levels</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="course-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=600"
+                    alt="Freestyle Dance"
+                >
+
+                <div class="course-info">
+
+                    <h3>Freestyle</h3>
+
+                    <p>
+                        Build your own dance style and improve
+                        your improvisation skills.
+                    </p>
+
+                    <span>Beginner to Advanced</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- INSTRUCTORS SECTION -->
+
+    <section class="instructors" id="instructors">
+
+        <h2 class="section-title">Meet Our Instructors</h2>
+
+        <p class="section-description">
+            Learn from passionate and experienced dance trainers.
+        </p>
+
+        <div class="instructor-container">
+
+
+            <div class="instructor-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600"
+                    alt="Dance Instructor"
+                >
+
+                <h3>Sarah Johnson</h3>
+
+                <p>Contemporary Dance Instructor</p>
+
+            </div>
+
+
+            <div class="instructor-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600"
+                    alt="Dance Instructor"
+                >
+
+                <h3>David Miller</h3>
+
+                <p>Hip Hop Dance Instructor</p>
+
+            </div>
+
+
+            <div class="instructor-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=600"
+                    alt="Dance Instructor"
+                >
+
+                <h3>Emily Rose</h3>
+
+                <p>Ballet Dance Instructor</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CLASS SCHEDULE SECTION -->
+
+    <section id="schedule">
+
+        <h2 class="section-title">Class Schedule</h2>
+
+        <p class="section-description">
+            Plan your dance journey with our weekly classes.
+        </p>
+
+        <table class="schedule-table">
+
+            <tr>
+                <th>Day</th>
+                <th>Dance Style</th>
+                <th>Time</th>
+            </tr>
+
+            <tr>
+                <td>Monday</td>
+                <td>Hip Hop</td>
+                <td>5:00 PM - 6:00 PM</td>
+            </tr>
+
+            <tr>
+                <td>Tuesday</td>
+                <td>Ballet</td>
+                <td>4:00 PM - 5:00 PM</td>
+            </tr>
+
+            <tr>
+                <td>Wednesday</td>
+                <td>Contemporary</td>
+                <td>5:00 PM - 6:00 PM</td>
+            </tr>
+
+            <tr>
+                <td>Thursday</td>
+                <td>Classical Dance</td>
+                <td>4:00 PM - 5:00 PM</td>
+            </tr>
+
+            <tr>
+                <td>Friday</td>
+                <td>Zumba</td>
+                <td>6:00 PM - 7:00 PM</td>
+            </tr>
+
+            <tr>
+                <td>Saturday</td>
+                <td>Freestyle</td>
+                <td>10:00 AM - 11:00 AM</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+
+    <!-- REGISTRATION SECTION -->
+
+    <section class="registration">
+
+        <h2>Ready to Dance?</h2>
+
+        <p>
+            Take your first step towards becoming a confident dancer.
+            Join our academy today!
+        </p>
+
+        <button onclick="document.getElementById('contact').scrollIntoView()">
+            Join Our Academy
         </button>
 
     </section>
@@ -610,10 +804,10 @@
 
     <section id="contact">
 
-        <h2 class="section-title">Visit HOPE CAFE</h2>
+        <h2 class="section-title">Contact Us</h2>
 
         <p class="section-description">
-            We would love to serve you!
+            We would love to help you begin your dance journey!
         </p>
 
         <div class="contact-container">
@@ -639,11 +833,20 @@
 
             <div class="contact-box">
 
+                <h3>Email</h3>
+
+                <p>rhythmdance@example.com</p>
+
+            </div>
+
+
+            <div class="contact-box">
+
                 <h3>Opening Hours</h3>
 
-                <p>Monday - Sunday</p>
+                <p>Monday - Saturday</p>
 
-                <p>9:00 AM - 10:00 PM</p>
+                <p>9:00 AM - 8:00 PM</p>
 
             </div>
 
@@ -656,9 +859,9 @@
 
     <footer>
 
-        <p>© 2026 HOPE CAFE. All Rights Reserved.</p>
+        <p>© 2026 RHYTHM DANCE ACADEMY. All Rights Reserved.</p>
 
-        <p>HOPE CAFE - A Little Coffee, A Lot of Happiness.</p>
+        <p>Dance With Passion. Live With Rhythm.</p>
 
     </footer>
 
