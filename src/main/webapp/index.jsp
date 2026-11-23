@@ -604,7 +604,7 @@
 
                     <p>
                         Explore traditional dance forms,
-                        rhythm and cultural expression.
+                        rhythm and cultural expressions.
                     </p>
 
                     <span>All Skill Levels</span>
