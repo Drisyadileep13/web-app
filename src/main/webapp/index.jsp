@@ -454,7 +454,7 @@
             <li><a href="#courses">Courses</a></li>
             <li><a href="#instructors">Instructors</a></li>
             <li><a href="#schedule">Schedule</a></li>
-            <li><a href="#contact">Contacts</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
 
     </nav>
